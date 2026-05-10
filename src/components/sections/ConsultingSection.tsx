@@ -91,17 +91,6 @@ export default function ConsultingSection() {
           </div>
         </div>
 
-        {/* B2B 연계 기업 */}
-        <div className="mt-12">
-          <h3 className="text-2xl font-bold text-white mb-6">B2B 연계 기업</h3>
-          <div className="bg-white rounded-2xl overflow-hidden">
-            <img
-              src="/images/b2b-companies.png"
-              alt="B2B 연계 기업 로고"
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
       </div>
     </section>
   );
