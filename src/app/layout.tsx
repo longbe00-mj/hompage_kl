@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: '유통중개, 제품소싱, PG, 팝업, 컨설팅, B2B',
   authors: [{ name: '더케이엘링크그룹' }],
   icons: {
-    icon: '/favicon.png',
+    icon: '/favicon.ico',
   },
   openGraph: {
     title: '더케이엘링크그룹 | B2B 사업 연결 플랫폼',
