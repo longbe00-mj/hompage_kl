@@ -3,9 +3,10 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import useInView from '@/hooks/useInView';
+import PortfolioCarousel from './PortfolioCarousel';
 
 export default function PortfolioSection() {
-  const { ref, isInView } = useInView();
+  const { ref } = useInView();
   const portfolioItems = [
     {
       id: 1,
@@ -102,46 +103,9 @@ export default function PortfolioSection() {
           </p>
         </div>
 
-        {/* 포트폴리오 그리드 */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {portfolioItems.map((item) => (
-            <div
-              key={item.id}
-              className={`bg-white rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 ${isInView ? 'show-up-scale' : ''}`}
-              style={isInView ? { animationDelay: `${(item.id - 1) * 0.1}s` } : {}}
-            >
-              {/* 이미지 */}
-              <div className="relative h-48 overflow-hidden bg-gray-200">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-
-              {/* 콘텐츠 */}
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <span className={`text-xs font-bold px-3 py-1 rounded-full ${item.categoryColor}`}>
-                    {item.category}
-                  </span>
-                  <span className={`text-xs font-bold ${item.resultColor}`}>
-                    {item.result}
-                  </span>
-                </div>
-
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
-                  {item.title}
-                </h3>
-
-                <p className="text-xs text-gray-400 mb-3">{item.client}</p>
-
-                <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                  {item.description}
-                </p>
-              </div>
-            </div>
-          ))}
+        {/* 포트폴리오 캐러셀 */}
+        <div className="mt-12">
+          <PortfolioCarousel items={portfolioItems} />
         </div>
 
         {/* 파트너 정보 */}
