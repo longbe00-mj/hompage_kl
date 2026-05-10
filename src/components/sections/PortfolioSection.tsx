@@ -158,7 +158,7 @@ export default function PortfolioSection() {
 
         {/* B2B 연계 기업 */}
         <div className="mt-12">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">함께하는 파트너</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">함께하는 파트너</h3>
           <div className="bg-white rounded-2xl overflow-hidden">
             <img
               src="/images/b2b-companies.png"
