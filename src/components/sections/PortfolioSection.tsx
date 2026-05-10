@@ -73,6 +73,17 @@ export default function PortfolioSection() {
       resultColor: 'text-emerald-600',
       image: '/images/portfolio/portfolio-6-doctor88.jpg',
     },
+    {
+      id: 7,
+      category: '진행 대기',
+      categoryColor: 'text-gray-600 bg-gray-50',
+      title: '+ 진행 대기 중(사진추가)',
+      client: '모집 중',
+      description: '베이커리 팝업 및 입점\n코스메틱, 건강기능식품\n패션 브랜드\n음료 원액, 소스 등 20여종 유통 추가\n홍보 / 브랜드 디자인',
+      result: '사진 추가 대기 중',
+      resultColor: 'text-gray-600',
+      image: '/images/portfolio/placeholder.jpg',
+    },
   ];
 
   return (
