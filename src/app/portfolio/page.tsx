@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: '포트폴리오 | 더케이엘링크그룹',
@@ -192,6 +193,17 @@ export default function PortfolioPage() {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* 포트폴리오 상세 보기 버튼 */}
+          <div className="mt-16 text-center">
+            <Link
+              href="/portfolio"
+              className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 hover:bg-blue-50 px-4 py-2 rounded-lg hover:shadow-md transition-all duration-300 text-lg"
+            >
+              전체 포트폴리오 보기
+              <ArrowRight size={20} />
+            </Link>
           </div>
         </section>
 

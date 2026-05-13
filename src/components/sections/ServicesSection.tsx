@@ -91,47 +91,6 @@ export default function ServicesSection() {
             );
           })}
 
-          {/* 2026 목표 카드 */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 flex flex-col justify-between text-white md:col-span-2 lg:col-span-3 card-shadow-hover-strong">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              <div>
-                <div className="text-xs text-gray-400 font-semibold mb-2 uppercase">2분기</div>
-                <div className="text-3xl font-black mb-1">1억</div>
-                <div className="text-sm text-gray-400">매출 목표</div>
-              </div>
-              <div>
-                <div className="text-xs text-gray-400 font-semibold mb-2 uppercase">3분기</div>
-                <div className="text-3xl font-black mb-1">2억</div>
-                <div className="text-sm text-gray-400">매출 목표</div>
-              </div>
-              <div>
-                <div className="text-xs text-gray-400 font-semibold mb-2 uppercase">4분기</div>
-                <div className="text-3xl font-black mb-1">3~5억</div>
-                <div className="text-sm text-gray-400">매출 목표</div>
-              </div>
-              <div>
-                <div className="text-xs text-blue-400 font-semibold mb-2 uppercase">2026 연간</div>
-                <div className="text-3xl font-black text-blue-400 mb-1">122억+</div>
-                <div className="text-sm text-gray-400">최종 목표</div>
-              </div>
-            </div>
-
-            <div className="hidden mt-8 pt-8 border-t border-white/20">
-              <div className="text-xs text-gray-400 font-semibold mb-4 uppercase">수익 비중 전략</div>
-              <div className="flex flex-wrap gap-3">
-                {[
-                  { label: '결제 인프라 구축', pct: '30%' },
-                  { label: '유통중개', pct: '30%' },
-                  { label: '팝업컨설팅', pct: '30%' },
-                  { label: '기타', pct: '10%' },
-                ].map((r) => (
-                  <div key={r.label} className="px-4 py-2 bg-white/10 rounded-full text-sm font-semibold text-white">
-                    {r.label} <span className="text-blue-400 ml-1">{r.pct}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="text-center">

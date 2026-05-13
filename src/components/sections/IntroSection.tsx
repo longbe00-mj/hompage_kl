@@ -8,18 +8,18 @@ export default function IntroSection() {
 
   return (
     <section className="py-16 md:py-24 bg-white" ref={ref}>
-      <div className="container">
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="px-4 md:px-8">
+        <div className="w-full">
+          <div className="grid grid-cols-1 gap-12 items-center">
             <div>
-              <h2 className="section-title">
+              <h2 className="section-title text-center">
                 <span className="text-blue-600">{companyInfo.name}</span>
               </h2>
-              <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+              <p className="text-gray-600 text-lg mb-6 leading-relaxed text-center">
                 단순한 중개 회사를 넘어 B2B 연결 플랫폼으로의 변신을 꿈꿉니다.
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
                 <div className={`flex flex-col gap-4 p-4 rounded-lg card-shadow-hover-soft hover:bg-blue-50 ${isInView ? 'show-up-slide-left' : ''}`}
                   style={isInView ? { animationDelay: '0s' } : {}}
                 >
@@ -77,31 +77,11 @@ export default function IntroSection() {
                 </div>
               </div>
 
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-center">
                 경영철학: <strong>지속가능경영</strong>, <strong>홍익인간 제세이화</strong> 기반 가치 창출
               </p>
             </div>
 
-            <div className={`bg-gray-50 rounded-2xl p-8 card-shadow-hover ${isInView ? 'show-up-slide-right' : ''}`}
-              style={isInView ? { animationDelay: '0.3s' } : {}}
-            >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">핵심 지표</h3>
-              <div className="space-y-6">
-                <div>
-                  <p className="text-sm text-gray-600 mb-2">2026년 Q2 목표</p>
-                  <p className="text-3xl font-bold text-blue-600">1억 원</p>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-600 mb-2">2026년 Q3 목표</p>
-                  <p className="text-3xl font-bold text-blue-600">2억 원</p>
-                </div>
-                <div>
-                  <p className="text-sm text-gray-600 mb-2">2026년 Q4 목표</p>
-                  <p className="text-3xl font-bold text-blue-600">3~5억 원</p>
-                </div>
-              </div>
-
-            </div>
           </div>
         </div>
       </div>

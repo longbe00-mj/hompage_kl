@@ -94,7 +94,11 @@ export default function PortfolioCarousel({ items }: PortfolioCarouselProps) {
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      className={`w-full h-full ${
+                        item.image.includes('placeholder')
+                          ? 'object-contain'
+                          : 'object-cover'
+                      } hover:scale-105 transition-transform duration-300`}
                     />
                   </div>
                   <div className="p-6">
