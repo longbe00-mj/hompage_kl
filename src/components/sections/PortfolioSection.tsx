@@ -119,6 +119,17 @@ export default function PortfolioSection() {
           <PortfolioCarousel items={portfolioItems} />
         </div>
 
+        {/* 하단 CTA */}
+        <div className="mt-16 text-center">
+          <Link
+            href="/portfolio"
+            className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 hover:bg-blue-50 px-4 py-2 rounded-lg hover:shadow-md transition-all duration-300 text-lg"
+          >
+            전체 포트폴리오 보기
+            <ArrowRight size={20} />
+          </Link>
+        </div>
+
         {/* 파트너 정보 */}
         <div className="bg-gradient-to-r from-gray-50 to-white rounded-2xl p-8 md:p-12 border border-gray-200">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -179,16 +190,6 @@ export default function PortfolioSection() {
           </div>
         </div>
 
-        {/* 하단 CTA */}
-        <div className="mt-16 text-center">
-          <Link
-            href="/portfolio"
-            className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 hover:bg-blue-50 px-4 py-2 rounded-lg hover:shadow-md transition-all duration-300 text-lg"
-          >
-            전체 포트폴리오 보기
-            <ArrowRight size={20} />
-          </Link>
-        </div>
       </div>
     </section>
   );
