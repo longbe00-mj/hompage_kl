@@ -116,11 +116,11 @@ export default function ServicesSection() {
               </div>
             </div>
 
-            <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="hidden mt-8 pt-8 border-t border-white/20">
               <div className="text-xs text-gray-400 font-semibold mb-4 uppercase">수익 비중 전략</div>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { label: 'PG 영업대행', pct: '30%' },
+                  { label: '결제 인프라 구축', pct: '30%' },
                   { label: '유통중개', pct: '30%' },
                   { label: '팝업컨설팅', pct: '30%' },
                   { label: '기타', pct: '10%' },

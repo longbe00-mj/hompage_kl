@@ -178,9 +178,15 @@
   },
   "hotPaths": [
     {
+      "path": "src\\app\\portfolio\\page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1778676567110,
+      "type": "file"
+    },
+    {
       "path": "src",
-      "accessCount": 4,
-      "lastAccessed": 1778676256576,
+      "accessCount": 5,
+      "lastAccessed": 1778676735063,
       "type": "directory"
     },
     {
@@ -196,9 +202,9 @@
       "type": "file"
     },
     {
-      "path": "src\\app\\portfolio\\page.tsx",
+      "path": "src\\components\\sections\\ServicesSection.tsx",
       "accessCount": 2,
-      "lastAccessed": 1778676252048,
+      "lastAccessed": 1778676760363,
       "type": "file"
     },
     {
@@ -211,6 +217,18 @@
       "path": "src\\components\\sections\\ConsultingSection.tsx",
       "accessCount": 1,
       "lastAccessed": 1778676215591,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778676738766,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\PainPointSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778676742453,
       "type": "file"
     }
   ],
