@@ -162,22 +162,33 @@ export default function PortfolioPage() {
                 { id: 4, title: '커도의서재 PG 영업대행', client: '커도의서재', image: '/images/portfolio/portfolio-4.jpg' },
                 { id: 5, title: 'PG 가맹점 모집', client: 'KIS정보통신', image: '/images/portfolio/portfolio-5.jpg' },
                 { id: 6, title: '닥터88+ B2B 영업대행', client: '닥터88+', image: '/images/portfolio/portfolio-6.jpg' },
+                { id: 7, title: '+ 진행 대기 중', client: '새로운 프로젝트', image: null, waiting: true },
               ].map((item) => (
                 <div
                   key={item.id}
-                  className="bg-white rounded-2xl overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow group"
+                  className={item.waiting ? "bg-white rounded-2xl overflow-hidden border-2 border-dashed border-gray-300 flex items-center justify-center group" : "bg-white rounded-2xl overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow group"}
+                  style={item.waiting ? { minHeight: '280px' } : {}}
                 >
-                  <div className="relative h-48 overflow-hidden bg-gray-200">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
-                    <p className="text-xs text-gray-400">{item.client}</p>
-                  </div>
+                  {item.waiting ? (
+                    <div className="p-6 text-center">
+                      <h3 className="text-lg font-bold text-gray-400 mb-2">{item.title}</h3>
+                      <p className="text-xs text-gray-300">{item.client}</p>
+                    </div>
+                  ) : (
+                    <>
+                      <div className="relative h-48 overflow-hidden bg-gray-200">
+                        <img
+                          src={item.image!}
+                          alt={item.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                      <div className="p-6">
+                        <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
+                        <p className="text-xs text-gray-400">{item.client}</p>
+                      </div>
+                    </>
+                  )}
                 </div>
               ))}
             </div>
