@@ -19,8 +19,8 @@ export default function IntroSection() {
                 단순한 중개 회사를 넘어 B2B 연결 플랫폼으로의 변신을 꿈꿉니다.
               </p>
 
-              <div className="space-y-4 mb-8">
-                <div className={`flex gap-4 p-4 rounded-lg card-shadow-hover-soft hover:bg-blue-50 ${isInView ? 'show-up-slide-left' : ''}`}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                <div className={`flex flex-col gap-4 p-4 rounded-lg card-shadow-hover-soft hover:bg-blue-50 ${isInView ? 'show-up-slide-left' : ''}`}
                   style={isInView ? { animationDelay: '0s' } : {}}
                 >
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -34,7 +34,7 @@ export default function IntroSection() {
                   </div>
                 </div>
 
-                <div className={`flex gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
+                <div className={`flex flex-col gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
                   style={isInView ? { animationDelay: '0.1s' } : {}}
                 >
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -48,7 +48,7 @@ export default function IntroSection() {
                   </div>
                 </div>
 
-                <div className={`flex gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
+                <div className={`flex flex-col gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
                   style={isInView ? { animationDelay: '0.2s' } : {}}
                 >
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
@@ -62,7 +62,7 @@ export default function IntroSection() {
                   </div>
                 </div>
 
-                <div className={`flex gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
+                <div className={`flex flex-col gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
                   style={isInView ? { animationDelay: '0.3s' } : {}}
                 >
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
