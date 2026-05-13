@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "skill_name": "subagent-driven-development",
+  "session_id": "474e98d8-d169-4547-a4ac-9d455fe9eb4a",
+  "started_at": "2026-05-10T07:32:11.050Z",
+  "last_checked_at": "2026-05-10T07:32:11.050Z",
+  "reinforcement_count": 0,
+  "max_reinforcements": 3,
+  "stale_ttl_ms": 300000
+}

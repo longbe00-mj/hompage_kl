@@ -46,7 +46,7 @@ export const businesses = [
   },
   {
     id: 'pg',
-    title: 'PG 영업대행',
+    title: '결제 인프라 구축',
     englishTitle: 'Payment Gateway Agency',
     description: '페이테크 기반 결제 솔루션 총판',
     details: [

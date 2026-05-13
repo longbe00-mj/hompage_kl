@@ -1,0 +1,14 @@
+{
+  "/api/contact/list/route": "/api/contact/list",
+  "/api/contact/route": "/api/contact",
+  "/_not-found/page": "/_not-found",
+  "/admin/page": "/admin",
+  "/terms/page": "/terms",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/business/page": "/business",
+  "/portfolio/page": "/portfolio",
+  "/partners/page": "/partners"
+}

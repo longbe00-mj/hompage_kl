@@ -1,0 +1,86 @@
+
+> thekllink-homepage@1.0.0 dev
+> next dev -p 9000
+
+ ⚠ i18n configuration in next.config.ts is unsupported in App Router.
+Learn more about internationalization in App Router: https://nextjs.org/docs/app/building-your-application/routing/internationalization
+ ⚠ Invalid next.config.ts options detected: 
+ ⚠     Invalid literal value, expected false at "i18n.localeDetection"
+ ⚠     Unrecognized key(s) in object: 'swcMinify'
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+   ▲ Next.js 15.5.15
+   - Local:        http://localhost:9000
+   - Network:      http://172.19.240.1:9000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1717ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.3s (648 modules)
+ ✓ Compiled in 1641ms (258 modules)
+ GET / 200 in 7132ms
+ ○ Compiling /business ...
+ ✓ Compiled /business in 600ms (640 modules)
+ GET /business 200 in 1176ms
+ GET /business 200 in 333ms
+ ○ Compiling /portfolio ...
+ ✓ Compiled /portfolio in 646ms (646 modules)
+ GET /portfolio 200 in 1357ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 561ms (648 modules)
+ GET /about 200 in 1128ms
+ GET /portfolio 200 in 378ms
+ GET /portfolio 200 in 339ms
+ ✓ Compiled in 1059ms (662 modules)
+ GET /portfolio 200 in 602ms
+ ✓ Compiled in 549ms (660 modules)
+ GET /portfolio 200 in 524ms
+ ✓ Compiled in 516ms (660 modules)
+ GET /portfolio 200 in 496ms
+ ✓ Compiled in 743ms (660 modules)
+ GET /portfolio 200 in 463ms
+ ✓ Compiled in 496ms (660 modules)
+ GET /portfolio 200 in 482ms
+ ✓ Compiled in 618ms (660 modules)
+ GET /portfolio 200 in 503ms
+ ✓ Compiled in 560ms (660 modules)
+ GET /portfolio 200 in 515ms
+ GET /portfolio 200 in 514ms
+ GET / 200 in 385ms
+ GET /portfolio 200 in 285ms
+ GET /portfolio 200 in 241ms
+ ✓ Compiled in 302ms (660 modules)
+ GET /portfolio 200 in 336ms
+ GET /portfolio 200 in 338ms
+ ✓ Compiled in 158ms (660 modules)
+ GET /portfolio 200 in 314ms
+ GET /portfolio 200 in 245ms
+ ✓ Compiled in 154ms (660 modules)
+ GET /portfolio 200 in 283ms
+ GET /portfolio 200 in 256ms
+ ✓ Compiled in 235ms (660 modules)
+ GET /portfolio 200 in 308ms
+ GET /portfolio 200 in 272ms
+ ✓ Compiled in 292ms (660 modules)
+ GET /portfolio 200 in 336ms
+ ✓ Compiled in 231ms (660 modules)
+ GET /portfolio 200 in 322ms
+ ✓ Compiled in 427ms (660 modules)
+ GET /portfolio 200 in 309ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 664ms (651 modules)
+ GET /images/portfolio/portfolio-2.jpg 404 in 1232ms
+ GET /images/portfolio/portfolio-4.jpg 404 in 1223ms
+ GET /images/portfolio/portfolio-3.jpg 404 in 1230ms
+ GET /images/portfolio/portfolio-5.jpg 404 in 395ms
+ GET /images/portfolio/portfolio-6.jpg 404 in 393ms
+ GET /portfolio 200 in 371ms
+ GET /portfolio 200 in 307ms
+ GET /portfolio 200 in 2067ms
+ GET / 200 in 321ms
+ GET /business 200 in 346ms
+ GET /portfolio 200 in 302ms
+ GET /portfolio 200 in 321ms
+ GET / 200 in 506ms
+ GET /portfolio 200 in 287ms
+ GET /portfolio 200 in 340ms

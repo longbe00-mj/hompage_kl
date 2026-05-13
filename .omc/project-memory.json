@@ -1,0 +1,218 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778675619088,
+  "projectRoot": "C:\\workspace\\homepage_k",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.1.0",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.1.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.1.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev -p 9000",
+      "build": "next build",
+      "start": "next start -p ${PORT:-80}",
+      "lint": "next lint",
+      "type-check": "tsc --noEmit"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "deploy": {
+      "path": "deploy",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1778675619039,
+      "keyFiles": [
+        "ecosystem.config.js",
+        "package.json",
+        "server.js"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1778675619040,
+      "keyFiles": []
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1778675619049,
+      "keyFiles": [
+        "favicon.ico",
+        "favicon.png"
+      ]
+    },
+    "publish": {
+      "path": "publish",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778675619050,
+      "keyFiles": []
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1778675619051,
+      "keyFiles": []
+    },
+    "deploy\\node_modules": {
+      "path": "deploy\\node_modules",
+      "purpose": "Dependencies",
+      "fileCount": 0,
+      "lastAccessed": 1778675619052,
+      "keyFiles": []
+    },
+    "deploy\\public": {
+      "path": "deploy\\public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1778675619053,
+      "keyFiles": [
+        "favicon.ico"
+      ]
+    },
+    "src\\app": {
+      "path": "src\\app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1778675619055,
+      "keyFiles": [
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1778675619055,
+      "keyFiles": []
+    },
+    "src\\config": {
+      "path": "src\\config",
+      "purpose": "Configuration files",
+      "fileCount": 1,
+      "lastAccessed": 1778675619056,
+      "keyFiles": [
+        "company.ts"
+      ]
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1778675619056,
+      "keyFiles": [
+        "utils.ts"
+      ]
+    },
+    "src\\types": {
+      "path": "src\\types",
+      "purpose": "Type definitions",
+      "fileCount": 1,
+      "lastAccessed": 1778675619057,
+      "keyFiles": [
+        "index.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src",
+      "accessCount": 4,
+      "lastAccessed": 1778676256576,
+      "type": "directory"
+    },
+    {
+      "path": "src\\config\\company.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778676245471,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\IntroSection.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778676248272,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\portfolio\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778676252048,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\business\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778676215432,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\ConsultingSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778676215591,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

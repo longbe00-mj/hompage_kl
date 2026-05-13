@@ -1,0 +1,15 @@
+
+> thekllink-homepage@1.0.0 dev
+> next dev -p 9000
+
+   ▲ Next.js 15.5.15
+   - Local:        http://localhost:9000
+   - Network:      http://192.168.100.126:9000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1586ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.8s (692 modules)
+ GET / 200 in 5365ms
+ ✓ Compiled in 199ms (279 modules)
