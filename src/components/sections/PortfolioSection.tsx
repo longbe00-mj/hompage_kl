@@ -120,7 +120,7 @@ export default function PortfolioSection() {
         </div>
 
         {/* 하단 CTA */}
-        <div className="mt-16 text-center">
+        <div className="mt-8 mb-8 text-center">
           <Link
             href="/portfolio"
             className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 hover:bg-blue-50 px-4 py-2 rounded-lg hover:shadow-md transition-all duration-300 text-lg"
