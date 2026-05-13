@@ -190,15 +190,15 @@
       "type": "directory"
     },
     {
-      "path": "src\\config\\company.ts",
-      "accessCount": 2,
-      "lastAccessed": 1778676245471,
+      "path": "src\\components\\sections\\IntroSection.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1778676818732,
       "type": "file"
     },
     {
-      "path": "src\\components\\sections\\IntroSection.tsx",
+      "path": "src\\config\\company.ts",
       "accessCount": 2,
-      "lastAccessed": 1778676248272,
+      "lastAccessed": 1778676245471,
       "type": "file"
     },
     {

@@ -101,27 +101,6 @@ export default function IntroSection() {
                 </div>
               </div>
 
-              <div className="hidden mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <p className="text-sm font-semibold text-blue-900 mb-2">수익 비중 전략</p>
-                <div className="space-y-2 text-sm">
-                  <div className="flex justify-between">
-                    <span className="text-gray-700">결제 인프라 구축</span>
-                    <span className="font-semibold">30%</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-700">유통중개</span>
-                    <span className="font-semibold">30%</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-700">팝업컨설팅</span>
-                    <span className="font-semibold">30%</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-700">기타</span>
-                    <span className="font-semibold">10%</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
