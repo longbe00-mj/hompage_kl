@@ -66,13 +66,26 @@
   align-items: center;
   text-align: center;
   position: relative;
+  border: 1px solid var(--org-line-color);
+  border-radius: 12px;
+  padding: var(--org-spacing-md);
+  background-color: rgba(15, 33, 71, 0.5);
+  box-shadow: var(--org-shadow-card);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--org-text-secondary);
+  background-color: rgba(15, 33, 71, 0.8);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transform: translateY(-4px);
 }
 
 .photo {
   border-radius: var(--org-radius-photo);
   overflow: hidden;
-  margin-bottom: var(--org-spacing-sm);
-  box-shadow: var(--org-shadow-card);
+  margin-bottom: var(--org-spacing-md);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .photoLarge {
