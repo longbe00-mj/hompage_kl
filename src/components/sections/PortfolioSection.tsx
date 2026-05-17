@@ -31,6 +31,17 @@ export default function PortfolioSection() {
       image: '/images/portfolio/portfolio-2-ube.jpg',
     },
     {
+      id: 2.5,
+      category: '제품소싱',
+      categoryColor: 'text-slate-600 bg-slate-50',
+      title: '천년초 제품 소싱',
+      client: '㈜이기영 박사 천년초',
+      description: '천년초 제품의 국내 시장 진출을 위한 제품소싱 및 유통 채널 매칭을 지원했습니다.',
+      result: '신규 채널 개발 중',
+      resultColor: 'text-slate-600',
+      image: '/images/portfolio/portfolio-cheonnyeonicho.jpg',
+    },
+    {
       id: 3,
       category: '팝업 컨설팅',
       categoryColor: 'text-orange-600 bg-orange-50',
