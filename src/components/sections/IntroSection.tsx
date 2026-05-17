@@ -1,87 +1,60 @@
 'use client';
 
 import { companyInfo } from '@/config/company';
-import useInView from '@/hooks/useInView';
 
 export default function IntroSection() {
-  const { ref, isInView } = useInView();
 
   return (
-    <section className="py-16 md:py-24 bg-white" ref={ref}>
-      <div className="px-4 md:px-8">
-        <div className="w-full">
-          <div className="grid grid-cols-1 gap-12 items-center">
-            <div>
-              <h2 className="section-title text-center">
-                <span className="text-blue-600">{companyInfo.name}</span>
-              </h2>
-              <p className="text-gray-600 text-lg mb-6 leading-relaxed text-center">
-                단순한 중개 회사를 넘어 B2B 연결 플랫폼으로의 변신을 꿈꿉니다.
-              </p>
+    <section className="py-16 md:py-24 bg-white">
+      <div className="container">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h2 className="section-title mb-6">기본정보</h2>
+            <div className="space-y-4">
+              <div>
+                <p className="text-sm text-gray-600 font-semibold">회사명</p>
+                <p className="text-lg text-blue-600 font-semibold">{companyInfo.name}</p>
+              </div>
+              <div>
+                <p className="text-sm text-gray-600 font-semibold">슬로건</p>
+                <p className="text-lg text-blue-600 font-semibold">{companyInfo.tagline}</p>
+              </div>
+            </div>
+          </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-                <div className={`flex flex-col gap-4 p-4 rounded-lg card-shadow-hover-soft hover:bg-blue-50 ${isInView ? 'show-up-slide-left' : ''}`}
-                  style={isInView ? { animationDelay: '0s' } : {}}
-                >
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">🎯</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">명확한 비전</h3>
-                    <p className="text-gray-600">
-                      대한민국 1위 B2B 연결 플랫폼 구축
-                    </p>
-                  </div>
-                </div>
-
-                <div className={`flex flex-col gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
-                  style={isInView ? { animationDelay: '0.1s' } : {}}
-                >
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">💡</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">다각적 수익</h3>
-                    <p className="text-gray-600">
-                      4개 사업모델 기반의 안정적이고 반복적인 수익 구조
-                    </p>
-                  </div>
-                </div>
-
-                <div className={`flex flex-col gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
-                  style={isInView ? { animationDelay: '0.2s' } : {}}
-                >
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">🚀</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">강력한 네트워크</h3>
-                    <p className="text-gray-600">
-                      유통사, 브랜드, 의료기관 등 다층적 네트워크 구축
-                    </p>
-                  </div>
-                </div>
-
-                <div className={`flex flex-col gap-4 p-4 rounded-lg hover:bg-blue-50 hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${isInView ? 'show-up-slide-left' : ''}`}
-                  style={isInView ? { animationDelay: '0.3s' } : {}}
-                >
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-xl">📊</span>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">데이터 기반</h3>
-                    <p className="text-gray-600">
-                      거래 데이터를 자산화하여 플랫폼의 가치 극대화
-                    </p>
-                  </div>
-                </div>
+          <div>
+            <h2 className="section-title mb-6">사업 철학</h2>
+            <div className="space-y-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 p-8">
+              <div>
+                <h3 className="text-lg font-semibold text-blue-600 mb-4">플랫폼 혁신 모델</h3>
+                <p className="text-gray-700 mb-4 font-medium">
+                  '잇고, 연결'하는 네트워크 중심 수익화 모델에서 <strong>'홍익인간 제세이화'</strong> 시스템의 플랫폼 혁신 모델로 변모합니다.
+                </p>
               </div>
 
-              <p className="text-gray-600 text-center">
-                경영철학: <strong>지속가능경영</strong>, <strong>홍익인간 제세이화</strong> 기반 가치 창출
-              </p>
+              <div className="border-t border-blue-200 pt-6 space-y-4">
+                <div>
+                  <p className="text-gray-700">
+                    제조를 잘하는 업체는 판매를 할 곳을 찾지 못하고, 판매를 잘 하는 곳은 아이템을 찾지 못하는 실정입니다.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-gray-700">
+                    우리의 강점은 <strong>네트워크</strong>입니다. 우리는 각 계 각층의 전문가들로 구성되어 있습니다.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-gray-700">
+                    산업 전반에 걸쳐 유통하고자 하는 제품이 있다면, 브랜드의 강점을 찾아서 맞춤형 판매처를 '잇고 연결'합니다.
+                  </p>
+                </div>
+                <div>
+                  <p className="text-gray-700">
+                    우리는 경영 전반을 설계하고, 그 구조적 컨설팅을 지원하며 <strong>브랜딩 빌드업</strong>을 통해 지속가능한 경영을 다각도로 도와 드립니다.
+                  </p>
+                </div>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
