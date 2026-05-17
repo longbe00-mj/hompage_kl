@@ -50,7 +50,7 @@ export default function HeroSection() {
           </div>
 
           <p className="text-white/60 text-base leading-relaxed max-w-lg">
-            ㈜더케이엘 링크그룹은 유통중개·제품소싱·PG영업대행·팝업컨설팅을 통해<br />
+            유통중개·제품소싱·PG영업대행·팝업컨설팅을 통해<br />
             브랜드의 유통사, 공급자와 수요자를 연결하는 <strong className="text-white/90">수익창출형 B2B 플랫폼</strong>입니다.
           </p>
 
