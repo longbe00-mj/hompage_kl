@@ -26,9 +26,9 @@ export default function ServicesSection() {
         </div>
 
         <div className="text-center mb-16">
-          <h2 className="section-title">6대 핵심 사업 모델</h2>
+          <h2 className="section-title">5대 핵심 사업 모델</h2>
           <p className="section-subtitle">
-            유통 · 소싱 · 결제 · 팝업 · 컨설팅 — 다층 수익 창출 구조
+            유통 · 소싱 · 결제 · 팝업 · B2B컨설팅 — 다층 수익 창출 구조
           </p>
         </div>
 
@@ -49,8 +49,7 @@ export default function ServicesSection() {
                      business.id === 'sourcing' ? 'Cash Cow 2' :
                      business.id === 'pg' ? 'Cash Cow 3' :
                      business.id === 'popup' ? 'Cash Cow 4' :
-                     business.id === 'consulting' ? 'Cash Cow 5' :
-                     business.id === 'branding' ? 'Cash Cow 6' : 'Value Add'}
+                     business.id === 'consulting' ? 'Cash Cow 5' : 'Value Add'}
                   </span>
                 </div>
 
@@ -98,7 +97,7 @@ export default function ServicesSection() {
             href="/business"
             className="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 px-6 py-3 rounded-lg text-lg link-shadow-hover bg-blue-50 hover:bg-blue-100"
           >
-            6대 사업 상세 보기
+            5대 사업 상세 보기
             <ArrowRight size={20} />
           </Link>
         </div>
