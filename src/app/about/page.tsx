@@ -95,6 +95,54 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* 4대 핵심 가치 */}
+        <section className="py-16 md:py-24">
+          <div className="container">
+            <h2 className="section-title text-center mb-12">4대 핵심 가치</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border-2 border-blue-200">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="text-3xl">🎯</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">명확한 비전</h3>
+                    <p className="text-gray-700">대한민국 1위 B2B 연결 플랫폼 구축</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg border-2 border-purple-200">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="text-3xl">💰</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">다각적 수익</h3>
+                    <p className="text-gray-700"><strong>5개</strong> 사업모델 기반의 안정적이고 반복적인 수익 구조</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8 bg-gradient-to-br from-emerald-50 to-green-50 rounded-lg border-2 border-emerald-200">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="text-3xl">🤝</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">강력한 네트워크</h3>
+                    <p className="text-gray-700">유통사, 브랜드, 의료기관 등 다층적 네트워크 구축</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-8 bg-gradient-to-br from-amber-50 to-yellow-50 rounded-lg border-2 border-amber-200">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="text-3xl">📊</div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">데이터 기반</h3>
+                    <p className="text-gray-700">거래 데이터를 자산화하여 플랫폼의 가치 극대화</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* 조직구조 */}
         <section className="py-16 md:py-24 bg-gray-50">
           <div className="container">
