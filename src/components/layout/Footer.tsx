@@ -64,7 +64,8 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">문의</h4>
             <div className="text-sm space-y-3">
               <p>
-                <strong>전화:</strong><br />{companyInfo.phone} (평일 {companyInfo.businessHours})
+                <strong>전화:</strong><br />
+                <span className="text-gray-400">설정 중</span>
               </p>
               <p>
                 <strong>이메일:</strong><br />{companyInfo.email} (24시간 상시 접수)
