@@ -56,11 +56,6 @@ export default function Footer() {
                   파트너
                 </Link>
               </li>
-              <li>
-                <Link href="/contact" className="hover:text-white transition-colors">
-                  문의
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -69,13 +64,18 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">문의</h4>
             <div className="text-sm space-y-3">
               <p>
-                <strong>전화:</strong> {companyInfo.phone}
+                <strong>전화:</strong><br />{companyInfo.phone} (평일 {companyInfo.businessHours})
               </p>
               <p>
-                <strong>이메일:</strong> {companyInfo.email}
+                <strong>이메일:</strong><br />{companyInfo.email} (24시간 상시 접수)
               </p>
               <p>
-                <strong>운영시간:</strong> {companyInfo.businessHours}
+                <strong>주소:</strong><br />
+                {companyInfo.address ? (
+                  <>본사 주소<br />{companyInfo.address}</>
+                ) : (
+                  <span className="text-gray-400">설정 중</span>
+                )}
               </p>
             </div>
           </div>

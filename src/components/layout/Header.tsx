@@ -14,7 +14,6 @@ export default function Header() {
     { href: '/business', label: '사업모델' },
     { href: '/portfolio', label: '포트폴리오' },
     { href: '/partners', label: '파트너' },
-    { href: '/contact', label: '문의' },
   ];
 
   return (
@@ -42,12 +41,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
-            className="cta-button"
-          >
-            문의하기
-          </Link>
         </nav>
 
         {/* 모바일 메뉴 버튼 */}
@@ -75,13 +68,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/contact"
-            className="block px-6 py-3 text-blue-600 font-semibold border-t border-gray-200"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            문의하기
-          </Link>
         </nav>
       )}
     </header>
