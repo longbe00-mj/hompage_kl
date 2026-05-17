@@ -31,17 +31,6 @@ export default function PortfolioSection() {
       image: '/images/portfolio/portfolio-2-ube.jpg',
     },
     {
-      id: 2.5,
-      category: '제품소싱',
-      categoryColor: 'text-slate-600 bg-slate-50',
-      title: '화장품 제품 소싱',
-      client: '화장품 브랜드',
-      description: '프리미엄 화장품 브랜드의 국내 유통망 구축 및 B2B 채널 개발을 지원했습니다.',
-      result: '주요 백화점 입점 성공',
-      resultColor: 'text-emerald-600',
-      image: '/images/portfolio/portfolio-cosmetics.jpg',
-    },
-    {
       id: 3,
       category: '팝업 컨설팅',
       categoryColor: 'text-orange-600 bg-orange-50',
@@ -145,10 +134,10 @@ export default function PortfolioSection() {
                 {[
                   'KIS정보통신',
                   'KCP',
-                  'COVAN',
+                  'KOVAN',
                   '페이테크',
                   '사이다페이',
-                  '대운아이엘티',
+                  '우영종합물류',
                 ].map((partner) => (
                   <div
                     key={partner}

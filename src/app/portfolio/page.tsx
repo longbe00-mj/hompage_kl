@@ -158,7 +158,7 @@ export default function PortfolioPage() {
               {[
                 { id: 1, title: '수박주스 원액 유통중개', client: '제조사 ↔ 유통사', image: '/images/portfolio/portfolio-1.jpg' },
                 { id: 2, title: '우베(UVE) 제품소싱', client: '우베 브랜드', image: '/images/portfolio/portfolio-2.jpg' },
-                { id: 2.5, title: '화장품 제품 소싱', client: '제품 소싱', image: '/images/portfolio/portfolio-cosmetics.jpg' },
+                { id: 2.5, title: '천년초 제품 소싱', client: '㈜이기영 박사 천년초', image: '/images/portfolio/portfolio-cheonnyeonicho.jpg' },
                 { id: 3, title: '빠빠빵 팝업스토어', client: '빠빠빵', image: '/images/portfolio/portfolio-3.jpg' },
                 { id: 4, title: '커도의서재 PG 영업대행', client: '커도의서재', image: '/images/portfolio/portfolio-4.jpg' },
                 { id: 5, title: 'PG 가맹점 모집', client: 'KIS정보통신', image: '/images/portfolio/portfolio-5.jpg' },

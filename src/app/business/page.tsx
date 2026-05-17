@@ -5,7 +5,7 @@ import { businesses } from '@/config/company';
 
 export const metadata: Metadata = {
   title: '사업모델 | 더케이엘링크그룹',
-  description: '유통중개, 제품소싱, PG영업대행, 팝업컨설팅 4대 사업 모델',
+  description: '유통중개, 제품소싱, PG영업대행, 팝업컨설팅, B2B컨설팅 5대 사업 모델',
 };
 
 export default function BusinessPage() {
@@ -16,7 +16,7 @@ export default function BusinessPage() {
         {/* 페이지 제목 */}
         <section className="bg-gradient-to-r from-gray-900 to-blue-900 text-white py-16">
           <div className="container">
-            <h1 className="text-4xl md:text-5xl font-bold">4대 사업 모델</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">5대 사업 모델</h1>
             <p className="text-lg text-gray-300 mt-4">
               안정적이고 반복적인 수익 구조를 갖춘 다각적 비즈니스
             </p>
@@ -200,7 +200,7 @@ export default function BusinessPage() {
         <section className="py-16 md:py-24 bg-gray-50">
           <div className="container">
             <h2 className="section-title text-center mb-12">
-              4개 사업의 통합 시너지
+              5개 사업의 통합 시너지
             </h2>
             <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -209,7 +209,7 @@ export default function BusinessPage() {
                     🔄 수익 구조의 다각화
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    한 고객과의 거래가 4가지 방식으로 반복 수익을 창출합니다:
+                    한 고객과의 거래가 5가지 방식으로 반복 수익을 창출합니다:
                   </p>
                   <ul className="space-y-2 text-gray-600">
                     <li>✓ 상품 공급 (유통중개)</li>

@@ -51,7 +51,7 @@ export const businesses = [
     description: '페이테크 기반 결제 솔루션 총판',
     details: [
       '페이테크 / 사이다페이 총판',
-      'KIS / KCP / COVAN 네트워크',
+      'KIS / KCP / KOVAN 네트워크',
     ],
     revenueModel: ['가맹점당 설치 수수료', '결제 수수료 쉐어 (Recurring)'],
     icon: '💳',
@@ -71,33 +71,16 @@ export const businesses = [
   },
   {
     id: 'consulting',
-    title: 'B2B 컨설팅',
-    englishTitle: 'B2B Consulting',
-    description: '제품 유통, 채널 개발, 비즈니스 확장 전략 컨설팅',
+    title: 'B2B 컨설팅 / 브랜드 빌드업',
+    englishTitle: 'B2B Consulting / Brand Build-up',
+    description: '제품 유통, 채널 개발, 브랜드 구축을 통한 통합 비즈니스 확장 전략',
     details: [
-      '신규 채널 진출 전략 수립',
-      '공급망 최적화 및 유통 전략',
-      '브랜드 포지셔닝 및 시장 진입 컨설팅',
+      '신규 채널 진출 전략 수립 및 공급망 최적화',
+      '브랜드 네이밍, 포지셔닝, 시장 진입 컨설팅',
+      '로고, 패키지, 홍보물 등 브랜드 개발 및 구축',
     ],
-    revenueModel: ['프로젝트 수행비', '성과 기반 수수료'],
+    revenueModel: ['프로젝트 수행비', '성과 기반 수수료', '브랜드 개발·구축 비용'],
     icon: '📊',
-  },
-  {
-    id: 'branding',
-    title: '브랜드 빌드업',
-    englishTitle: 'Brand Build-up',
-    description: '브랜드의 시작부터 확장까지, 시각·공간·경험을 통합 설계',
-    details: [
-      '브랜드 네이밍 / 슬로건 / 스토리 개발',
-      '로고 · 패키지 · 키비주얼 · 홍보물 제작',
-      '공간 컨셉 · 사인물 · VMD 디자인 구축',
-    ],
-    revenueModel: [
-      '브랜드 개발 및 구축 비용',
-      '디자인 운영 · 유지관리 계약',
-      '브랜드 확장 디벨롭 컨설팅',
-    ],
-    icon: '🎨',
   },
 ];
 
