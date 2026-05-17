@@ -1,0 +1,66 @@
+export const organizationData = {
+  title: '더케이엘링크그룹 조직도',
+  subtitle: 'C-Level Core Member',
+  cLevel: [
+    {
+      id: 'ceo',
+      position_kr: '대표이사',
+      position_en: 'CEO',
+      description: '스마트한 리더십으로 새로운 가치를 연결합니다.',
+      photo: '/images/org/ceo.jpg',
+      isPrimary: true,
+    },
+    {
+      id: 'cbso',
+      position_kr: '브랜딩전략이사',
+      position_en: 'Branding Strategy Director',
+      description: '브랜드의 본질을 정의하고 시장을 매혹시키는 전략을 만듭니다.',
+      photo: '/images/org/cbso.jpg',
+      isPrimary: false,
+    },
+  ],
+  teamLeaders: [
+    {
+      id: 'tl_management',
+      position_kr: '경영관리팀장',
+      position_en: 'Management Team Leader',
+      description: '체계적인 경영관리로 조직의 안정과 성장을 지원합니다.',
+      photo: '/images/org/tl_management.jpg',
+    },
+    {
+      id: 'tl_space_design',
+      position_kr: '공간디자인팀장',
+      position_en: 'Space Design Team Leader',
+      description: '공간에 가치를 더하는 창의적 디자인으로 브랜드 경험을 설계합니다.',
+      photo: '/images/org/tl_space_design.jpg',
+    },
+    {
+      id: 'tl_pg_dev',
+      position_kr: 'PG개발팀장',
+      position_en: 'PG Development Team Leader',
+      description: '기술과 데이터를 기반으로 안전하고 혁신적인 PG 서비스를 개발합니다.',
+      photo: '/images/org/tl_pg_dev.jpg',
+    },
+    {
+      id: 'tl_marketing',
+      position_kr: '마케팅팀장',
+      position_en: 'Marketing Team Leader',
+      description: '데이터와 트렌드를 기반으로 브랜드 가치를 알리고 지속적인 성장을 이끕니다.',
+      photo: '/images/org/tl_marketing.jpg',
+    },
+    {
+      id: 'tl_scm',
+      position_kr: 'SCM 물류팀장',
+      position_en: 'SCM Logistics Team Leader',
+      description: '효율적인 공급망 관리와 안정적인 물류 운영으로 비즈니스 경쟁력을 강화합니다.',
+      photo: '/images/org/tl_scm.jpg',
+    },
+    {
+      id: 'tl_popup',
+      position_kr: '팝업스토어 슈퍼바이저팀장',
+      position_en: 'Popup Store Supervisor Team Leader',
+      description: '현장을 디자인하고 고객 경험을 극대화하여 브랜드 가치를 직접 전달합니다.',
+      photo: '/images/org/tl_popup.jpg',
+    },
+  ],
+};

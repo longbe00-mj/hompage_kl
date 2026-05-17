@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import Organization from '@/components/Organization/Organization';
 import { companyInfo, strategicPhases } from '@/config/company';
 
 export const metadata: Metadata = {
@@ -143,50 +144,8 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* 조직구조 */}
-        <section className="py-16 md:py-24 bg-gray-50">
-          <div className="container">
-            <h2 className="section-title text-center mb-12">조직구조</h2>
-            <div className="bg-white rounded-lg shadow-lg p-8">
-              <div className="flex flex-col items-center justify-center">
-                <div className="mb-8">
-                  <div className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
-                    대표이사: {companyInfo.ceo}
-                  </div>
-                </div>
-
-                <div className="flex gap-8 flex-wrap justify-center mb-8">
-                  <div className="text-center">
-                    <div className="bg-gray-200 text-gray-900 px-6 py-3 rounded-lg font-semibold">
-                      감사<br />{companyInfo.auditor}
-                    </div>
-                    <p className="text-sm text-gray-600 mt-2">경영관리</p>
-                  </div>
-                  <div className="text-center">
-                    <div className="bg-gray-200 text-gray-900 px-6 py-3 rounded-lg font-semibold">
-                      COO<br />{companyInfo.coo}
-                    </div>
-                    <p className="text-sm text-gray-600 mt-2">등기이사</p>
-                  </div>
-                </div>
-
-                <div className="border-t border-gray-300 pt-8 w-full">
-                  <h3 className="font-semibold text-gray-900 mb-4 text-center">주주구성</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="p-4 border border-gray-300 rounded-lg">
-                      <p className="font-semibold text-gray-900">이성진</p>
-                      <p className="text-sm text-gray-600">국제물류회사 이사</p>
-                    </div>
-                    <div className="p-4 border border-gray-300 rounded-lg">
-                      <p className="font-semibold text-gray-900">김대운</p>
-                      <p className="text-sm text-gray-600">대운아이엘티 대표</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* 조직도 — 새 컴포넌트 */}
+        <Organization />
 
         {/* 전략 단계 */}
         <section className="py-16 md:py-24">

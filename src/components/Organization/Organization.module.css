@@ -1,0 +1,229 @@
+/* ============================================
+   조직도 섹션 전체 스타일
+   ============================================ */
+.section {
+  background-color: var(--org-bg-primary);
+  padding: var(--org-spacing-xl) var(--org-spacing-md);
+  color: var(--org-text-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* 헤더 */
+.header {
+  margin-bottom: var(--org-spacing-xl);
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: var(--org-font-section-title);
+  color: var(--org-text-secondary);
+  letter-spacing: 1.5px;
+  display: block;
+  margin-bottom: var(--org-spacing-sm);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--org-spacing-md);
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--org-text-primary);
+  margin: 0;
+}
+
+/* C-Level 영역 */
+.cLevel {
+  display: flex;
+  justify-content: center;
+  gap: var(--org-spacing-lg);
+  margin-bottom: var(--org-spacing-lg);
+  position: relative;
+  flex-wrap: wrap;
+}
+
+/* 카드 공통 */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.photo {
+  border-radius: var(--org-radius-photo);
+  overflow: hidden;
+  margin-bottom: var(--org-spacing-sm);
+  box-shadow: var(--org-shadow-card);
+}
+
+.photoLarge {
+  width: 180px;
+  height: 180px;
+}
+
+.photoMedium {
+  width: 140px;
+  height: 140px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.positionKr {
+  font-size: var(--org-font-name);
+  font-weight: 700;
+  color: var(--org-text-primary);
+  margin: 0 0 4px 0;
+}
+
+.positionEn {
+  font-size: var(--org-font-position);
+  color: var(--org-text-secondary);
+  letter-spacing: 0.5px;
+  margin: 0 0 var(--org-spacing-sm) 0;
+  font-weight: 400;
+}
+
+.description {
+  font-size: var(--org-font-description);
+  color: var(--org-text-body);
+  line-height: 1.6;
+  max-width: 200px;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* 연결선 */
+.connector {
+  width: 2px;
+  height: 40px;
+  background-color: var(--org-line-color);
+  margin: 0 auto;
+  position: relative;
+}
+
+.connector::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 200px);
+  max-width: 1100px;
+  height: 2px;
+  background-color: var(--org-line-color);
+}
+
+/* 팀 리더 영역 */
+.teamLeaders {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--org-spacing-md);
+  position: relative;
+}
+
+.teamLeaders .card {
+  position: relative;
+}
+
+.teamLeaders .card::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background-color: var(--org-line-color);
+}
+
+/* ============================================
+   반응형 — 태블릿 (1024px 이하)
+   ============================================ */
+@media (max-width: 1024px) {
+  .teamLeaders {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: var(--org-spacing-lg);
+  }
+
+  .teamLeaders .card::before {
+    display: none;
+  }
+}
+
+/* ============================================
+   반응형 — 태블릿 (768px 이하)
+   ============================================ */
+@media (max-width: 768px) {
+  .section {
+    padding: var(--org-spacing-lg) var(--org-spacing-sm);
+  }
+
+  .cLevel {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--org-spacing-md);
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .teamLeaders {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .photoLarge {
+    width: 140px;
+    height: 140px;
+  }
+
+  .photoMedium {
+    width: 110px;
+    height: 110px;
+  }
+
+  .connector::before {
+    display: none;
+  }
+}
+
+/* ============================================
+   반응형 — 모바일 (480px 이하)
+   ============================================ */
+@media (max-width: 480px) {
+  .teamLeaders {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 12px;
+  }
+}

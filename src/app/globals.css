@@ -12,6 +12,29 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Organization Chart Design Tokens */
+  --org-bg-primary: #0A1A3A;
+  --org-bg-secondary: #0F2147;
+  --org-text-primary: #FFFFFF;
+  --org-text-secondary: #C9D4E8;
+  --org-text-body: #8FA0B8;
+  --org-accent-gold: #D4AF6E;
+  --org-line-color: #2B3D60;
+  --org-spacing-xs: 8px;
+  --org-spacing-sm: 16px;
+  --org-spacing-md: 24px;
+  --org-spacing-lg: 40px;
+  --org-spacing-xl: 64px;
+  --org-font-name: 18px;
+  --org-font-position: 13px;
+  --org-font-description: 13px;
+  --org-font-section-title: 14px;
+  --org-radius-card: 12px;
+  --org-radius-photo: 8px;
+  --org-shadow-card: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
 * {
   margin: 0;
   padding: 0;
