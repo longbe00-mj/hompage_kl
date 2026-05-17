@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-sm mb-4">{companyInfo.tagline}</p>
             <div className="text-sm space-y-2">
               <p>대표: {companyInfo.ceo}</p>
-              <p>전화: {companyInfo.phone}</p>
+              <p>전화: <span className="text-gray-400">설정 중</span></p>
               <p>이메일: {companyInfo.email}</p>
             </div>
           </div>
