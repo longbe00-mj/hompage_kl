@@ -54,10 +54,10 @@ export default function ContactPage() {
                 <div className="text-4xl mb-4">🏢</div>
                 <h3 className="font-semibold text-gray-900 mb-2">주소</h3>
                 <p className="text-amber-600 font-semibold">
-                  서울시
+                  {companyInfo.address || '설정 중'}
                 </p>
                 <p className="text-sm text-gray-600 mt-2">
-                  상세 주소는 문의 시 안내
+                  {companyInfo.address ? '본사 주소' : '상세 주소는 문의 시 안내'}
                 </p>
               </div>
             </div>
