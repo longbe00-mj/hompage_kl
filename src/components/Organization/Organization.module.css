@@ -132,9 +132,9 @@
 /* 연결선 */
 .connector {
   width: 2px;
-  height: 40px;
+  height: 60px;
   background-color: var(--org-line-color);
-  margin: 0 auto;
+  margin: var(--org-spacing-lg) auto;
   position: relative;
 }
 
@@ -144,7 +144,7 @@
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(100% - 200px);
+  width: 90%;
   max-width: 1100px;
   height: 2px;
   background-color: var(--org-line-color);
@@ -156,6 +156,7 @@
   grid-template-columns: repeat(6, 1fr);
   gap: var(--org-spacing-md);
   position: relative;
+  margin-top: 40px;
 }
 
 .teamLeaders .card {
@@ -165,11 +166,11 @@
 .teamLeaders .card::before {
   content: '';
   position: absolute;
-  top: -20px;
+  top: -40px;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
-  height: 20px;
+  height: 40px;
   background-color: var(--org-line-color);
 }
 
