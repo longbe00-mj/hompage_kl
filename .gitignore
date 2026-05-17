@@ -36,3 +36,10 @@ yarn-error.log*
 
 # OS
 Thumbs.db
+
+# Build artifacts
+*.tar.gz
+tsconfig.tsbuildinfo
+
+# Claude Code / Development tools
+.omc/
