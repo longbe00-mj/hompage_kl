@@ -31,11 +31,8 @@ export default function ContactPage() {
               <div className="p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg border border-blue-200 text-center">
                 <div className="text-4xl mb-4">📞</div>
                 <h3 className="font-semibold text-gray-900 mb-2">전화</h3>
-                <p className="text-blue-600 font-semibold text-lg">
-                  {companyInfo.phone}
-                </p>
-                <p className="text-sm text-gray-600 mt-2">
-                  평일 {companyInfo.businessHours}
+                <p className="text-gray-600 font-semibold text-lg">
+                  설정 중
                 </p>
               </div>
 
