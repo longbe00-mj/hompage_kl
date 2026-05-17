@@ -37,8 +37,8 @@ export default function PortfolioSection() {
       title: '천년초 제품 소싱',
       client: '㈜이기영 박사 천년초',
       description: '천년초 제품의 국내 시장 진출을 위한 제품소싱 및 유통 채널 매칭을 지원했습니다.',
-      result: '신규 채널 개발 중',
-      resultColor: 'text-slate-600',
+      result: '국내 마케팅자동화 솔루션 기업과 제휴하여 O2O 사업 추진 중 (㈜리드젠 상상마켓 온라인 판매)',
+      resultColor: 'text-emerald-600',
       image: '/images/portfolio/portfolio-cheonnyeonicho.jpg',
     },
     {
